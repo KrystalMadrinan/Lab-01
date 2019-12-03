@@ -1,0 +1,19 @@
+div {
+    background-color: rgb(201, 201, 201);
+}
+
+footer {
+    background-color: rgb(201, 201, 201);
+}
+
+@media only screen and (min-width: 768px) {
+
+div { 
+    background-color: rgb(236, 156, 156);
+}
+
+footer {
+    background-color: rgb(236, 156, 156);
+}
+ 
+}

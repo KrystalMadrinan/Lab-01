@@ -1,0 +1,35 @@
+body {
+    width: 480px;
+    height: 767px;
+    margin: auto;
+}
+
+
+
+
+footer {
+    width: 480px;
+    height: 80px;
+    border: 1px solid black;
+    text-align: center;
+    clear: both;
+}
+
+
+
+/* DESKTOP STUFF STARTS HERE */
+@media only screen and (min-width: 768px) { 
+    body {
+        width: 768px;
+        height: 960px;
+    }
+
+    footer {
+        width: 760px;
+        height: 150px;
+        border: 1px solid black;
+        text-align: center;
+        clear: both;
+    }
+    
+  }
