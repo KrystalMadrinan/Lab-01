@@ -1,98 +1,35 @@
-
 body {
     width: 480px;
     height: 767px;
-    border: 1px solid black;
-}
-
-#a {
-    width: 480px;
-    height: 75px;
-    border: 1px solid black;
-    text-align: center;
-}
-
-#b {
-    width: 480px;
-    height: 150px;
-    border: 1px solid black;
-    text-align: center;
-}
-
-#c, #d {
-    width: 480px;
-    height: 125px;
-    border: 1px solid black;
-    text-align: center;
+    margin: auto;
 }
 
 
-#a, #b, #c, #d, footer {
-    line-height: 100px;
-}
 
-#e, #g, #f, #h {
-    width: 240px;
-    height: 250px;
-    border: 1px solid black;
-    text-align: center;
-}
-
-.squares2 {
-    display: inline-block;
-}
-
-#f {
-    float: right;
-    
-
-}
-
-#e {
-    float: left;
-}
-
-#h {
-    float: right;
-}
 
 footer {
     width: 480px;
     height: 80px;
     border: 1px solid black;
     text-align: center;
+    clear: both;
 }
 
 
 
 /* DESKTOP STUFF STARTS HERE */
-@media only screen and (max-width: 767px) { 
+@media only screen and (min-width: 768px) { 
     body {
         width: 768px;
         height: 960px;
-        border: 1px solid black;
     }
 
-    #a {
-        width: 960px;
-        height: 100px;
+    footer {
+        width: 760px;
+        height: 150px;
         border: 1px solid black;
         text-align: center;
-    }
-
-    #b {
-        width: 200px;
-        height: 600px;
-        border: 1px solid black;
-        text-align: center;
+        clear: both;
     }
     
-    #c, #d {
-        width: 380px;
-        height: 200px;
-        border: 1px solid black;
-        text-align: center;
-    }
-
-
   }
